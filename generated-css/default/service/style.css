@@ -267,7 +267,7 @@ section.hero {
 	display: flex !important;
 	flex-direction: column;
 	gap: 25px;
-	margin-right: 20px;
+	margin: 0px 10px;
 }
 
 .easy.integration {
