@@ -75,7 +75,7 @@ p {
 button.btn {
 	background-color: #FFFFFF;
 	background-image: none;
-	color: #5d7196;
+	color: #ed9121;
 	font-size: 16px;
 	line-height: normal;
 	font-weight: 600;
@@ -113,21 +113,21 @@ button.btn:focus-visible {
 .form__btn:hover,
 .form__btn:active,
 .form__btn:focus-visible {
-	background-color: #5d7196;
+	background-color: #ed9121;
 	color: #D1E8FF;
 }
 
 .btn.blue,
 button.btn.blue,
 .form__btn {
-	background-color: #5d7196;
+	background-color: #ed9121;
 	color: #FFFFFF;
 }
 
 button.btn.blue:hover,
 button.btn.blue:active,
 button.btn.blue:focus-visible {
-	background-color: #5d7196;
+	background-color: #ed9121;
 	color: #D1E8FF;
 }
 
@@ -317,14 +317,14 @@ section.hero {
 	min-height: 80px;
 	font-weight: 500;
 	margin-bottom: 10px;
-	color: #5d7196;
+	color: #ed9121;
 }
 
 .easy__accent,
 .easy__name h3 {
 	font-size: 18px;
 	line-height: normal;
-	color: #5d7196;
+	color: #ed9121;
 }
 
 .easy__content--eis .easy__name h3 {
@@ -333,7 +333,7 @@ section.hero {
 }
 
 .custom-li{
-	color: #5d7196;
+	color: #ed9121;
 	margin-bottom: 5px;
 }
 
@@ -383,7 +383,7 @@ section.hero {
 }
 
 .numbers__list {
-	color: #5d7196;
+	color: #ed9121;
 	font-size: 22px;
 	line-height: normal;
 	font-weight: 400;
@@ -408,7 +408,7 @@ section.hero {
 	justify-content: center;
 	font-size: 36px;
 	line-height: normal;
-	color: #5d7196;
+	color: #ed9121;
 	font-weight: 600;
 	padding: 0 0 12px;
 	margin: 0 0 13px;
@@ -418,7 +418,7 @@ section.hero {
 .numbers__accent::after {
 	content: "";
 	width: 46px;
-	border-bottom: 1px #5d7196 solid;
+	border-bottom: 1px #ed9121 solid;
 	position: absolute;
 	bottom: 0;
 }
@@ -465,7 +465,7 @@ section.hero {
 }
 
 .logo-text{
-	color: #5d7196;
+	color: #ed9121;
 	font-weight: 700;
 	font-size: 20px;
 }
@@ -473,7 +473,7 @@ section.hero {
 .line{
 	width: 1px;
 	height: 40px;
-	background-color: #5d7196;
+	background-color: #ed9121;
 }
 
 .header__content {
@@ -517,7 +517,7 @@ section.hero {
 }
 
 .faq__element:hover .faq-img svg path {
-	fill: #5d7196;
+	fill: #ed9121;
 }
 
 .faq__element.active {
@@ -543,7 +543,7 @@ section.hero {
 }
 
 .faq__element.active .faq-img svg path {
-	fill: #5d7196;
+	fill: #ed9121;
 }
 
 .faq__answer {
@@ -574,7 +574,7 @@ section.hero {
 }
 
 .faq-img svg:hover path {
-	fill: #5d7196;
+	fill: #ed9121;
 }
 
 .faq__body {
@@ -693,13 +693,13 @@ a[href].tell__link {
 	justify-content: center;
 	width: 66px;
 	height: 66px;
-	background-color: #5d7196;
+	background-color: #ed9121;
 	border-radius: 7px;
 	margin-top: 2px;
 }
 
 .plitka__icon--complex {
-	background-color: #5d7196;
+	background-color: #ed9121;
 }
 
 .plitka__icon img {
@@ -787,8 +787,8 @@ section.plitka {
 	height: 30px;
 	align-items: center;
 	margin-right: 13px;
-	border: 1px solid #5d7196;
-	color: #5d7196;
+	border: 1px solid #ed9121;
+	color: #ed9121;
 	border-radius: 20px;
 	font-size: 16px;
 	line-height: 25px;
@@ -841,7 +841,7 @@ section.plitka {
 }
 
 .faq-button:hover {
-	color: #5d7196;
+	color: #ed9121;
 }
 
 .faq-button--buttonClose {
@@ -994,12 +994,12 @@ section.plitka {
 	background-color: #fff;
 	font-size: 24px;
 	font-weight: normal;
-	color: #5d7196;
+	color: #ed9121;
 	padding: 9px 20px;
 	margin: 2px 0 20px;
 	border-radius: 10px;
 	text-align: center;
-	border: 1px solid #5d7196;
+	border: 1px solid #ed9121;
 	position: absolute;
 	width: 90%;
 	top: -30px;
@@ -1048,7 +1048,7 @@ section.plitka {
 }
 
 .accent {
-	color: #5d7196;
+	color: #ed9121;
 }
 
 .footer {
@@ -1063,7 +1063,7 @@ section.plitka {
 }
 
 .footer a:hover {
-	color: #5d7196;
+	color: #ed9121;
 }
 
 #footer {
@@ -1093,7 +1093,7 @@ section.plitka {
 }
 
 .footer__logo a:hover {
-	fill: #5d7196;
+	fill: #ed9121;
 }
 
 .footer__content {
@@ -1135,7 +1135,7 @@ section.plitka {
 }
 
 .footer__menu a:hover {
-	color: #5d7196;
+	color: #ed9121;
 }
 
 .footer__phone,
@@ -1255,6 +1255,6 @@ body.no-scroll{
 .form__input-inp{
 	padding: 8px 20px;
 	width: 100%;
-	border: 1px solid #5d7196;
+	border: 1px solid #ed9121;
 	border-radius: 7px;
 }
