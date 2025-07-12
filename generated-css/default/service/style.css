@@ -236,6 +236,13 @@ section.hero {
 	max-width: 1106px;
 }
 
+.inside__icon{
+	height: 250px;
+	aspect-ratio: 1/1;
+	display: flex;
+	justify-content: center;
+}
+
 .inside__icon img{
 	width: 100%;
 }

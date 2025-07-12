@@ -106,23 +106,23 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.inside__content_slider').slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         dots: true,
         responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
+            // {
+            //     breakpoint: 1024,
+            //     settings: {
+            //         slidesToShow: 3
+            //     }
+            // },
+            // {
+            //     breakpoint: 768,
+            //     settings: {
+            //         slidesToShow: 2
+            //     }
+            // },
             {
                 breakpoint: 480,
                 settings: {
