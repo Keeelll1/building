@@ -382,9 +382,7 @@
 	.header__block {
 		gap: 2%;
 	}
-	.header__logo img {
-		height: 30px;
-	}
+
 	.inside__content--columns .inside__item {
 		grid-template-columns: 68px 1fr;
 	}
@@ -395,5 +393,33 @@
 
 	.inside__icon p {
 		font-size: 18px;
+	}
+}
+
+.burger__btn{
+	display: none;
+}
+
+@media (max-width: 550px) {
+	.burger__btn {
+		display: block;
+	}
+
+	.header__content{
+		display: none;
+	}
+
+	header {
+		position: fixed;
+		width: 100vw;
+		z-index: 3;
+	}
+
+	.turnkey-tender-support__banner {
+		padding-top: 90px;
+	}
+
+	.inside__icon {
+		max-height: 200px;
 	}
 }

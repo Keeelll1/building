@@ -153,3 +153,11 @@ $(document).ready(function () {
         toggleBlock(needToggleBlocks[selector]);
     }
 })
+
+const burger = document.querySelector('.burger__btn'),
+    burgerContent = document.querySelector('.burger')
+
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('active')
+        burgerContent.classList.toggle('active')
+    })

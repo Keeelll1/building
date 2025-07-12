@@ -237,14 +237,16 @@ section.hero {
 }
 
 .inside__icon{
-	height: 250px;
-	aspect-ratio: 1/1;
+	max-height: 250px;
 	display: flex;
 	justify-content: center;
 }
 
 .inside__icon img{
-	width: 100%;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
 .inside__txt p {
@@ -274,9 +276,6 @@ section.hero {
 	padding: 25px;
 	border-radius: 7px;
 	background-color: #f0f0f2;
-	align-items: stretch;
-	height: 250px;
-	height: 100%;
 	display: flex !important;
 	flex-direction: column;
 	gap: 25px;
@@ -935,7 +934,7 @@ section.plitka {
 	background-image: url(/img/back.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center right;
+	background-position: center center;
 	border-radius: 7px;
 	padding: 80px 0;
 }
@@ -1179,6 +1178,19 @@ section.plitka {
 	gap: 20px;
 }
 
+.burger__menu{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 0;
+	z-index: 3;
+}
+
+.burger__menu a {
+	color: black !important;
+}
+
 .footer__menu {
 	column-count: 2;
 	column-gap: 20%;
@@ -1321,4 +1333,65 @@ body.no-scroll{
 	width: 100%;
 	border: 1px solid #ed9121;
 	border-radius: 7px;
+}
+
+.burger{
+	padding: 50px 20px 20px 20px;
+	background-color: white;
+	border-radius: 10px;
+	position: fixed;
+	top: 0;
+	width: 170px;
+	right: -170px;
+	transition: .3s ease;
+	z-index: 2;
+}
+
+.burger.active {
+	right: 0;
+}
+
+.burger__btn {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	z-index: 3;
+}
+
+.burger__btn span {
+	height: 2px;
+	width: 100%;
+	background-color: black;
+	border-radius: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s ease;
+}
+
+.burger__btn span:nth-child(1) {
+	top: 25%;
+}
+
+.burger__btn span:nth-child(3) {
+	top: 75%;
+}
+
+.burger__btn.active span:nth-child(1) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.burger__btn.active span:nth-child(2) {
+	opacity: 0;
+}
+
+.burger__btn.active span:nth-child(3) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+[id] {
+  scroll-margin-top: 70px;
 }
