@@ -79,10 +79,6 @@
 }
 
 @media (max-width: 980px) {
-	.tariff__list {
-		grid-template-columns: 1fr 1fr;
-		gap: 40px;
-	}
 	.footer {
 		flex-direction: column;
 	}
@@ -194,6 +190,12 @@
 	}
 }
 
+@media (max-width: 650px) {
+	.tariff__item h3 {
+		font-size: 18px;
+	}
+}
+
 @media (max-width: 666px) {
 	.faq,
 	.steps,
@@ -208,7 +210,7 @@
 		padding: 26px;
 	}
 	.header__logo img {
-		height: 33px;
+		height: 70px;
 	}
 	header button.btn.blue {
 		font-size: 12px;
@@ -324,6 +326,11 @@
 		align-items: flex-end;
 		gap: 5px;
 	}
+
+	.tariff__list_work {
+		grid-template-columns: 1fr !important;
+		gap: 50px;
+	}
 }
 
 @media (max-width: 420px) {
@@ -388,10 +395,5 @@
 
 	.inside__icon p {
 		font-size: 18px;
-	}
-
-	.inside__icon img {
-		width: 60px;
-		height: 60px;
 	}
 }

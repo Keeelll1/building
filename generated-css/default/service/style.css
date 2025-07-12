@@ -259,12 +259,16 @@ section.hero {
 	padding-top: 40px;
 }
 
+.tariff__btn span {
+	white-space: wrap;
+}
+
 .inside__item{
 	padding: 25px;
 	border-radius: 7px;
 	background-color: #f0f0f2;
 	align-items: stretch;
-	min-height: 250px;
+	height: 250px;
 	height: 100%;
 	display: flex !important;
 	flex-direction: column;
@@ -476,10 +480,8 @@ section.hero {
 }
 
 .header {
-	padding: 15px 0;
 	box-shadow: 0 10px 15px rgb(186 204 219 / 30%);
 	background-color: #fff;
-	z-index: 3;
 }
 
 .logo-img{
@@ -507,7 +509,11 @@ section.hero {
 .header__logo img {
 	display: block;
 	width: auto;
-	height: 40px;
+	height: 80px;
+}
+
+.logo-img{
+	height: 100px;
 }
 
 .logo-text{
@@ -939,6 +945,11 @@ section.plitka {
 	justify-content: center;
 }
 
+.logo__img{
+	width: 100px;
+	height: 100px;
+}
+
 .white{
 	color: #fff !important;
 }
@@ -1163,7 +1174,7 @@ section.plitka {
 
 .footer__menu {
 	column-count: 2;
-	column-gap: 3%;
+	column-gap: 20%;
 	margin: auto;
 	padding: 0 9%;
 	list-style: none;
