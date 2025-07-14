@@ -302,9 +302,11 @@ section.hero {
 
 .inside__top{
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	gap: 20px;
 }
+
 
 .inside__top p {
 	font-size: 20px;
@@ -315,6 +317,16 @@ section.hero {
     height: 100%;
 	object-fit: cover;
 }
+
+.slick-track {
+  display: flex !important;
+  align-items: stretch;
+}
+
+.slick-slide {
+  height: auto !important;
+}
+
 
 .inside__content_slider .slick-track {
   display: flex !important;

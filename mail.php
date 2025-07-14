@@ -28,16 +28,16 @@ try {
   $mail->SMTPAuth   = true;
 
   // Настройки почты отправителя
-  $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'soprovozdenietenderov@gmail.com'; // Логин на почте
+  $mail->Host       = 'smtp.mail.ru'; // SMTP сервера вашей почты
+  $mail->Username   = 'start_llc@mail.ru'; // Логин на почте
   $mail->Password   = 'bplp nbpj hizm gaey'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('soprovozdenietenderov@gmail.com', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('start_llc@mail.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('soprovozdenietenderov@gmail.com');
+  $mail->addAddress('start_llc@mail.ru');
 
   // Отправка сообщения
   $mail->isHTML(true);
