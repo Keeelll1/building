@@ -30,7 +30,7 @@ try {
   // Настройки почты отправителя
   $mail->Host       = 'smtp.mail.ru'; // SMTP сервера вашей почты
   $mail->Username   = 'start_llc@mail.ru'; // Логин на почте
-  $mail->Password   = 'bplp nbpj hizm gaey'; // Пароль на почте
+  $mail->Password   = 'sblEOdhDh9dgbGNZvvaU'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
